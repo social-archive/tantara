@@ -1,4 +1,3 @@
-import { Image } from 'astro:assets';
 import plan_class from '../assets/plan_class.jpg';
 import plan_2507 from '../assets/plan_2507.jpg';
 import plan_2508 from '../assets/plan_2508.jpg';
@@ -8,16 +7,16 @@ import poster from '../assets/poster.png';
 
 <div class="grid grid-cols-4 gap-4 p-4">
     <div class="">
-        <Image src={plan_class} alt="test" />
+        <img src={plan_class.src} alt="plan_class" />
     </div>
     <div class="">
-        <Image src={plan_2507} alt="test" />
+        <img src={plan_2507.src} alt="plan_2507" />
     </div>
     <div class="">
-        <Image src={plan_2508} alt="test" />
+        <img src={plan_2508.src} alt="plan_2508" />
     </div>
     <div class="">
-        <Image src={poster} alt="test" />
+        <img src={poster.src} alt="poster" />
     </div>
 </div>
 
