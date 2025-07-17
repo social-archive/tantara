@@ -1,4 +1,4 @@
-<div class="text-gray-300">
+<div class="text-gray-300 bg-gray-800">
 
 테스트
 
