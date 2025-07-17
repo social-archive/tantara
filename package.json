@@ -7,10 +7,18 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/react": "^4.3.0",
     "@tailwindcss/vite": "^4.1.11",
-    "astro": "^5.11.2"
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "astro": "^5.11.2",
+    "github-markdown-css": "^5.8.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
     "tailwindcss": "^4.1.11"
   }
 }
