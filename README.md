@@ -1,5 +1,8 @@
-
+## mdx 문법
 마크다운과 html 같이 쓸 수 있는 플랫폼입니다
+
+## 초기 개발 시 clone 이후
+> npm install
 
 ## 1. 개발 시 `/astro.config.mjs` 의 설정 중 프로젝트 루트를 변경해야 합니다
 
