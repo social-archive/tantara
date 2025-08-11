@@ -1,5 +1,31 @@
 # 슬기로운 딴따라 생활
 
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('pre').forEach((block) => {
+      const button = document.createElement('button');
+      button.innerText = 'Copy';
+      button.className = 'bg-blue-500 text-white px-2 py-1 rounded absolute top-2 right-2';
+      button.style.position = 'absolute';
+      button.style.top = '0.5rem';
+      button.style.right = '0.5rem';
+
+      button.addEventListener('click', () => {
+        const code = block.querySelector('code').innerText;
+        navigator.clipboard.writeText(code).then(() => {
+          button.innerText = 'Copied!';
+          setTimeout(() => (button.innerText = 'Copy'), 2000);
+        });
+      });
+
+      block.style.position = 'relative';
+      block.appendChild(button);
+    });
+  });
+</script>
+
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 16px;">
     <div>
         <img src="./assets/poster.png" alt="poster" style="width: 100%; border-radius: 8px;" />
@@ -17,19 +43,19 @@
 
 ### 딴따라클럽 인스타그램 (활동 영상)  
 Tantara Club Instagram  
-https://www.instagram.com/tantara_official?igsh=MWR4Z3A4cDZrbGd0dQ== 
+<a href="https://www.instagram.com/tantara_official?igsh=MWR4Z3A4cDZrbGd0dQ==" target="_blank">🔗 인스타그램 바로가기</a>
 
 ## 딴따라클럽 소모임 (매주 정모 정보, 활동 사진, 자기소개)  
 Tantara Club Somoim (Every week gathering information)  
-https://somoim.friendscube.com/g/4815f134-20c6-11ee-91fe-0a372a1b7bbd1 
+<a href="https://somoim.friendscube.com/g/4815f134-20c6-11ee-91fe-0a372a1b7bbd1" target="_blank">🔗 소모임 바로가기</a>
 
 ## 딴따라클럽 당근마켓 (활동 사진)  
 Tantara Club Daangn  
-https://www.daangn.com/kr/groups/QdyRNR0j
+<a href="https://www.daangn.com/kr/groups/QdyRNR0j" target="_blank">🔗 당근마켓 바로가기</a>
 
 ## 딴무위키 소셜매너(새내기 필독)  
 Ddanmuwiki Social Manner (Newcomer must read)  
-https://tantaraclub.pythonanywhere.com/w/%EC%86%8C%EC%85%9C%EB%A7%A4%EB%84%88
+<a href="https://tantaraclub.pythonanywhere.com/w/%EC%86%8C%EC%85%9C%EB%A7%A4%EB%84%88" target="_blank">🔗 소셜매너 위키 바로가기</a>
 
 ## 수업장소 안내
 
@@ -39,7 +65,7 @@ https://tantaraclub.pythonanywhere.com/w/%EC%86%8C%EC%85%9C%EB%A7%A4%EB%84%88
 ✅재학생: 8시 ⭐ 강남 세아빌딩 3층 큰 홀  
 ✅수업 장소 주소 : 서울 강남구 강남대로94길 55 (역삼동 636-22 세아빌딩 3층)  
 
-http://map.daum.net/link/map/
+<a href="http://map.daum.net/link/map/" target="_blank">🗺️ 지도에서 위치 확인하기</a>
 
 - 1교시 (8시00분 ~ 8시50분)
 - 2교시 (8시55분 ~ 9시45분)
@@ -61,7 +87,7 @@ http://map.daum.net/link/map/
 ✅ **Continuing Students**: 8:00 PM ⭐ Gangnam Sea Building 3rd Floor Large Hall  
 ✅ **Class Address**: 55 Gangnam-daero 94-gil, Gangnam-gu, Seoul (Yeoksam-dong 636-22 Sea Building 3rd Floor)
 
-http://map.daum.net/link/map/
+<a href="http://map.daum.net/link/map/" target="_blank">🗺️ Check location on map</a>
 
 **Schedule**:
 - 1st Period (8:00 PM ~ 8:50 PM)  
@@ -74,47 +100,50 @@ http://map.daum.net/link/map/
 Please wear comfortable clothes and shoes.
 (Avoid shoes with very stiff soles that don't slide at all! It's also good to bring something to drink.)
 
----
 
 ## 홍보문구
 
 ### SNS 홍보문구
 
-🌟 **sns 홍보 문구 및 인증 방법 안내**
+```markdown
+🌟 sns 홍보 문구 및 인증 방법 안내
 
--   에타 연합동아리 게시판(메인 포스터 + 43기 모집글)
--   동아리 게시판, 블라인드 등 (모집글, QR 포스터 등 자유롭게)
+-   에타 연합동아리 게시판(메인 포스터 + 43기 모집글),
+-   동아리 게시판,블라인드 등 (모집글, QR 포스터 등 자유롭게)
 -   카페, 블라인드, 인스타스토리 등 플랫폼
--   지인 카톡방 (본인 제외 4명이상 카톡방)  
+-   지인 카톡방 (본인 제외 4명이상 카톡방)
     동아리 홍보글 작성 후 10분 이상 카톡 유지
+```
 
 ### 에타 홍보문구
-#### 홍보인증: https://forms.gle/nBFQ79TvKXrbXyAk8
+#### 홍보인증: <a href="https://forms.gle/nBFQ79TvKXrbXyAk8" target="_blank">🔗 홍보인증 폼</a>
 
-**제목**: 라틴댄스동아리💃딴따라클럽🕺 신규회원 모집!
+```markdown
+제목: 라틴댄스동아리💃딴따라클럽🕺 신규회원 모집!
 
-**내용**:
+내용:
 ✒1분만에 지원하기! 딴따라클럽 새내기 지원 폼
-https://zrr.kr/Jyd73N
+<a href="https://zrr.kr/Jyd73N" target="_blank">🔗 지원 폼 바로가기</a>
 
-*명칭안내 : 새내기(신입회원), 재학생(가입 후 활동 유지 회원)
+\*명칭안내 : 새내기(신입회원), 재학생(가입 후 활동 유지 회원)
 
-🌟 **모집 안내** 🌟
-- 모집 기간 : 상시모집(차수별)
-- 수업료 : 6만원 (라틴댄스 2과목 4주과정)
-- ✔ 친구와 동반 등록하는 경우 1만원에서 최대 4만원까지 할인!
-- ✔ 20-35살이라면 누구나!
-- ✔ 커플 댄스 춤을 배워보고 싶은 분들!
+🌟 모집 안내 🌟
+모집 기간 : 상시모집(차수별)
+수업료 : 6만원 (라틴댄스 2과목 4주과정)
+✔ 친구와 동반 등록하는 경우 1만원에서 최대 4만원까지 할인!
+✔ 20-35살이라면 누구나!
+✔ 커플 댄스 춤을 배워보고 싶은 분들!
 
-🌟 **새내기 활동 안내** 🌟
-- 활동 지역 : 강남 (지하철역 인근)
-- 활동 일정
-  - ✔ 매주 토요일 수업 (오후 8시-10시) 강남
-  - ✔ 매주 목요일 수업 (오후 9시-10시) 강남
-  - ✔ 매주 토, 목요일 정모 (오후 10시-∞)
+🌟 새내기 활동 안내 🌟
+활동 지역 : 강남 (지하철역 인근)
+활동 일정
+✔ 매주 토요일 수업 (오후 8시-10시) 강남
+✔ 매주 목요일 수업 (오후 9시-10시) 강남
+✔ 매주 토, 목요일 정모 (오후 10시-∞)
+※ 수업 후 뒤풀이&소셜댄스가 있으며
+모든 활동은 강제 참여가 아닌 자율로 이루어집니다!
 
-※ 수업 후 뒤풀이&소셜댄스가 있으며 모든 활동은 강제 참여가 아닌 자율로 이루어집니다!
-
-🌟 **활동 관련 문의** 🌟
-💬 딴따라클럽 새내기 문의방  
-https://bit.ly/TantaraNewbie
+🌟 활동 관련 문의 🌟
+💬 딴따라클럽 새내기 문의방
+<a href="https://bit.ly/TantaraNewbie" target="_blank">🔗 문의방 바로가기</a>
+```
