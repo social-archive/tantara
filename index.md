@@ -1,27 +1,19 @@
-
-import plan_class from '../assets/plan_class.jpg';
-import plan_2507 from '../assets/plan_2507.jpg';
-import plan_2508 from '../assets/plan_2508.jpg';
-import poster from '../assets/poster.png';
-
 # 슬기로운 딴따라 생활
 
-<div class="grid grid-cols-4 gap-4 p-4">
-    <div class="">
-        <img src={poster.src} alt="poster" />
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 16px;">
+    <div>
+        <img src="./assets/poster.png" alt="poster" style="width: 100%; border-radius: 8px;" />
     </div>
-    <div class="">
-        <img src={plan_class.src} alt="plan_class" />
+    <div>
+        <img src="./assets/plan_class.jpg" alt="plan_class" style="width: 100%; border-radius: 8px;" />
     </div>
-    <div class="">
-        <img src={plan_2507.src} alt="plan_2507" />
+    <div>
+        <img src="./assets/plan_2507.jpg" alt="plan_2507" style="width: 100%; border-radius: 8px;" />
     </div>
-    <div class="">
-        <img src={plan_2508.src} alt="plan_2508" />
+    <div>
+        <img src="./assets/plan_2508.jpg" alt="plan_2508" style="width: 100%; border-radius: 8px;" />
     </div>
-    
 </div>
-
 
 ### 딴따라클럽 인스타그램 (활동 영상)  
 Tantara Club Instagram  
@@ -38,7 +30,6 @@ https://www.daangn.com/kr/groups/QdyRNR0j
 ## 딴무위키 소셜매너(새내기 필독)  
 Ddanmuwiki Social Manner (Newcomer must read)  
 https://tantaraclub.pythonanywhere.com/w/%EC%86%8C%EC%85%9C%EB%A7%A4%EB%84%88
-
 
 ## 수업장소 안내
 
@@ -62,8 +53,7 @@ http://map.daum.net/link/map/
 불편하지 않은 옷과 신발차림으로 와주시면 됩니다.
 (밑창이 뻑뻑해서 너무 안미끄러지는 신발은 피해주세요!, 마실 음료도 있으면 좋습니다)
 
-
-
+---
 
 **Saturday Class Location and Schedule**
 
@@ -84,52 +74,47 @@ http://map.daum.net/link/map/
 Please wear comfortable clothes and shoes.
 (Avoid shoes with very stiff soles that don't slide at all! It's also good to bring something to drink.)
 
-
-
+---
 
 ## 홍보문구
 
 ### SNS 홍보문구
 
-```markdown
-🌟 sns 홍보 문구 및 인증 방법 안내
+🌟 **sns 홍보 문구 및 인증 방법 안내**
 
--   에타 연합동아리 게시판(메인 포스터 + 43기 모집글),
--   동아리 게시판,블라인드 등 (모집글, QR 포스터 등 자유롭게)
+-   에타 연합동아리 게시판(메인 포스터 + 43기 모집글)
+-   동아리 게시판, 블라인드 등 (모집글, QR 포스터 등 자유롭게)
 -   카페, 블라인드, 인스타스토리 등 플랫폼
--   지인 카톡방 (본인 제외 4명이상 카톡방)
+-   지인 카톡방 (본인 제외 4명이상 카톡방)  
     동아리 홍보글 작성 후 10분 이상 카톡 유지
-```
 
 ### 에타 홍보문구
-#### 홍보인증:https://forms.gle/nBFQ79TvKXrbXyAk8
+#### 홍보인증: https://forms.gle/nBFQ79TvKXrbXyAk8
 
-```markdown
-제목: 라틴댄스동아리💃딴따라클럽🕺 신규회원 모집!
+**제목**: 라틴댄스동아리💃딴따라클럽🕺 신규회원 모집!
 
-내용:
+**내용**:
 ✒1분만에 지원하기! 딴따라클럽 새내기 지원 폼
 https://zrr.kr/Jyd73N
 
-\*명칭안내 : 새내기(신입회원), 재학생(가입 후 활동 유지 회원)
+*명칭안내 : 새내기(신입회원), 재학생(가입 후 활동 유지 회원)
 
-🌟 모집 안내 🌟
-모집 기간 : 상시모집(차수별)
-수업료 : 6만원 (라틴댄스 2과목 4주과정)
-✔ 친구와 동반 등록하는 경우 1만원에서 최대 4만원까지 할인!
-✔ 20-35살이라면 누구나!
-✔ 커플 댄스 춤을 배워보고 싶은 분들!
+🌟 **모집 안내** 🌟
+- 모집 기간 : 상시모집(차수별)
+- 수업료 : 6만원 (라틴댄스 2과목 4주과정)
+- ✔ 친구와 동반 등록하는 경우 1만원에서 최대 4만원까지 할인!
+- ✔ 20-35살이라면 누구나!
+- ✔ 커플 댄스 춤을 배워보고 싶은 분들!
 
-🌟 새내기 활동 안내 🌟
-활동 지역 : 강남 (지하철역 인근)
-활동 일정
-✔ 매주 토요일 수업 (오후 8시-10시) 강남
-✔ 매주 목요일 수업 (오후 9시-10시) 강남
-✔ 매주 토, 목요일 정모 (오후 10시-∞)
-※ 수업 후 뒤풀이&소셜댄스가 있으며
-모든 활동은 강제 참여가 아닌 자율로 이루어집니다!
+🌟 **새내기 활동 안내** 🌟
+- 활동 지역 : 강남 (지하철역 인근)
+- 활동 일정
+  - ✔ 매주 토요일 수업 (오후 8시-10시) 강남
+  - ✔ 매주 목요일 수업 (오후 9시-10시) 강남
+  - ✔ 매주 토, 목요일 정모 (오후 10시-∞)
 
-🌟 활동 관련 문의 🌟
-💬 딴따라클럽 새내기 문의방
+※ 수업 후 뒤풀이&소셜댄스가 있으며 모든 활동은 강제 참여가 아닌 자율로 이루어집니다!
+
+🌟 **활동 관련 문의** 🌟
+💬 딴따라클럽 새내기 문의방  
 https://bit.ly/TantaraNewbie
-```
