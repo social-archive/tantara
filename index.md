@@ -1,6 +1,6 @@
 # 슬기로운 딴따라 생활
 
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
